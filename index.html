@@ -1,60 +1,123 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta name="author" content="Manohar Prabhu">
-<meta name="viewport" content="width=device-width; initial-scale=1.0; target-densitydpi=device-dpi">
-<title>Welcome</title>
-<style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top" id="main-navigation-bar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
 
-html *{
-	padding:0;
-	margin:0;
-}
-.wire-button {
-	padding:10px;
-	text-decoration: none;
-	border: 1px solid #FFFFFF;
-	border-radius: 8px;
-	text-align: center;
-	line-height: 40px;
-	color:#FFFFFF;
-	font-family: monospace;
-	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
-}
+        <div class="container mt-100">
+            <div class="invisible" id="main-jumbotron">
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12"><img class="center-block round-image" data-toggle="tooltip" data-placement="left" title="This guy is awesome!" data-original-title="This guy is awesome!" src="images/manohar.jpg" width="221" height="255" /></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-align-center"><h3>Manohar Prabhu</h3></div>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row col-md-12"><h4> Software Engineer, with proficiency in building scalable, user-friendly applications using Java, HTML5, and Javascript </h4></div>
+                        <div class="row col-md-12"><a class="btn btn-success" href="projects.html">View my works</a></div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+            <br />
 
-.wire-button:hover {
-	padding:10px;
-	text-decoration: none;
-	border: 1px solid #FFFFFF;
-	border-radius: 8px;
-	text-align: center;
-	line-height: 40px;
-	color:#FFFFFF;
-	font-family: monospace;
-	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
-	background-color: #121212;
-}
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="panel panel-primary invisible" id="current-employment-panel">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-9 col-xs-9">
+                                    <h4 >Currently Employed By</h4>
+                                </div>
+                                <div class="col-md-3 col-sm-3 text-align-right">2015 - Present</div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row"> 
+                                <div class="col-md-12"><h3><img src="images/intel-security-logo.png" width="90" height="80" /> Intel Security</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="panel panel-primary invisible" id="tools-of-trade-panel">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <h4>Tools I use to create awesome products</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <div class="col-md-12"><img src="images/html5.png" alt="HTML5" class="center-block" width="64" height="64" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-align-center"><h4>HTML5</h4></div>
+                                    </div>                           
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <div class="col-md-12"><img src="images/javascript-logo.png" alt="Javascript"  class="center-block"  width="64" height="64"/></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-align-center"><h4>Javascript</h4></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <div class="col-md-12"><img src="images/java.png" alt="Java" class="center-block"  width="64" height="64" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-align-center"><h4>Java</h4></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="row">
+                                        <div class="col-md-12"><img src="images/nodejs-128.png" alt="NodeJS" class="center-block"  width="64" height="64" /></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-align-center"><h4>NodeJS</h4></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-.row {
-	width:100%;
-	text-align: center;
-	margin:10px 0 10px 0;
-}
 
-body {
-	background-color: #454545;
-}
+        </div>  
 
-
-</style>
-</head>
-<body>
-<div class="row">
-<a class="wire-button" href="1024/index.html"> Play 1024</a>
-</div>
-</body>
+    </body>
 </html>

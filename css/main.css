@@ -1,0 +1,61 @@
+.round-image {
+    border-radius: 50%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.invisible {
+    opacity: 0;
+}
+.appear-twofive {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+    -moz-transition: opacity 0.25s ease-in;
+    -webkit-transition: opacity 0.25s ease-in;
+
+    transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay: 0.25s;
+}
+
+.appear-five {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+    -moz-transition: opacity 0.25s ease-in;
+    -webkit-transition: opacity 0.25s ease-in;
+    transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay: 0.5s;
+}
+
+.appear-sevenfive {
+    opacity: 1;
+    transition: opacity 0.25s ease-in;
+    -moz-transition: opacity 0.25s ease-in;
+    -webkit-transition: opacity 0.25s ease-in;
+    transition-delay: 0.75s;
+    -webkit-transition-delay: 0.75s;
+    -moz-transition-delay: 0.75s;
+}
+
+#main-navigation-bar {
+    border-bottom: 3px solid #000000;
+}
+
+#main-jumbotron {
+    border: 2px solid #CDCDCD;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+
