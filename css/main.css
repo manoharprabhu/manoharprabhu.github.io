@@ -77,3 +77,62 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+.facebook-icon {
+    width: 48px;
+    height: 48px;
+    background: url(../images/facebook-48x48.png);
+    display: inline-block;
+}
+
+.github-icon {
+    width: 48px;
+    height: 48px;
+    background: url(../images/github-48x48.png);
+    display: inline-block;
+}
+
+.linkedin-icon {
+    width: 48px;
+    height: 48px;
+    background: url(../images/linkedin-48x48.png);
+    display: inline-block;
+}
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #149c82;
+}
+
+.bs-callout-primary h4 {
+    color: #149c82;
+    font-size: 1.5em;
+}
+
+.email-image {
+    width: 32px;
+    height: 32px;
+    background: url('../images/opened4.png');
+    display: inline-block;
+    line-height: 32px;
+    text-indent: 40px;
+}
+
+
+.cellphone-image {
+    width: 32px;
+    height: 32px;
+    background: url('../images/mobile177.png');
+    display: inline-block;
+    line-height: 32px;
+    text-indent: 40px;
+}
