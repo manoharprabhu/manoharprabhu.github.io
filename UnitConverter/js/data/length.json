@@ -1,0 +1,30 @@
+{
+    "name": "Length / Distance",
+    "units": [{
+            "key": "feet",
+            "value": "Feet"
+        }, {
+            "key": "centimeter",
+            "value": "Centimeter"
+        }, {
+            "key": "kilometer",
+            "value": "Kilometer"
+        }, {
+            "key": "meter",
+            "value": "Meter"
+        }, {
+            "key": "yard",
+            "value": "Yard"
+        }, {
+            "key": "mile",
+            "value": "Mile"
+        }],
+    "conversion": {
+        "meter": 1.0,
+        "feet": 0.3048,
+        "centimeter": 0.01,
+        "kilometer": 1000.0,
+        "yard": 0.9144,
+        "mile": 1609.344
+    }
+}
