@@ -1,91 +1,105 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio</title>
-        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css" />
-        <link rel="stylesheet" href="css/main.css" />
-    </head>
-    <body>
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navigation-bar">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" />
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Portfolio</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
 
-            </div>
-        </nav>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navigation-bar">
         <div class="container">
-            <div class="row mt-100">
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/flappy.PNG" alt="Flappy bird">
-                        <div class="caption">
-                            <h3>Flappy Bird</h3>
-                            <p>A clone of Flappy Bird game built using javascript with PhaserJS game engine.</p>         
-                            <p>Use spacebar or touch the screen to make the bird jump and try to avoid the pipes.</p>
-                            <a href="http://manoharprabhu.github.io/Flappy/" class="btn btn-success">Play</a>
-                            <a href="https://github.com/manoharprabhu/Flappy-Bird" class="btn btn-default">View Source</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/1024.PNG"  alt="1024">
-                        <div class="caption">
-                            <h3>1024</h3>
-                            <p>A fully responsive clone of 2048 game built using plain javascript.</p>         
-                            <p>Use arrow keys or swipe to move the number tiles and combine tiles with similar value. You win when you make a tile of value 1024.</p>
-                            <a href="http://manoharprabhu.github.io/1024/" class="btn btn-success">Play</a>
-                            <a href="https://github.com/manoharprabhu/1024" class="btn btn-default">View Source</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/diskanalyzer.PNG"  alt="Disk Analyzer">
-                        <div class="caption">
-                            <h3>Disk Analyzer</h3>
-                            <p>A Java tool that can analyze your disk and generate useful reports about the types of files</p>         
-                            <p>It also exposes an API that can be imported and used in any project to scan a particular location and generate reports.</p>         
-                            <a href="https://github.com/manoharprabhu/DiskAnalyzer" class="btn btn-default">View Source</a>
-                        </div>
-                    </div>
-                </div>     
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" />
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
             </div>
-            <div class="row mt-100">
-                <div class="col-md-4 col-sm-6">
-                    <div class="thumbnail">
-                        <!--<img src=""  alt="Comic Relief">-->
-                        <div class="caption">
-                            <h3>Comic Relief</h3>
-                            <p>Java tool and API that can be used to convert a set of movie and its subtitle into comics.</p>
-                            <p>Depends on FFMPEG for the conversions.</p>
-                            <a href="https://github.com/manoharprabhu/comic-relief" class="btn btn-default">View Source</a>
-                        </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-100">
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/flappy.PNG" alt="Flappy bird">
+                    <div class="caption">
+                        <h3>Flappy Bird</h3>
+                        <p>A clone of Flappy Bird game built using javascript with PhaserJS game engine.</p>
+                        <p>Use spacebar or touch the screen to make the bird jump and try to avoid the pipes.</p>
+                        <a href="http://manoharprabhu.github.io/Flappy/" class="btn btn-success">Play</a>
+                        <a href="https://github.com/manoharprabhu/Flappy-Bird" class="btn btn-default">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/1024.PNG" alt="1024">
+                    <div class="caption">
+                        <h3>1024</h3>
+                        <p>A fully responsive clone of 2048 game built using plain javascript.</p>
+                        <p>Use arrow keys or swipe to move the number tiles and combine tiles with similar value. You win when you make a tile of value 1024.</p>
+                        <a href="http://manoharprabhu.github.io/1024/" class="btn btn-success">Play</a>
+                        <a href="https://github.com/manoharprabhu/1024" class="btn btn-default">View Source</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <img src="images/diskanalyzer.PNG" alt="Disk Analyzer">
+                    <div class="caption">
+                        <h3>Disk Analyzer</h3>
+                        <p>A Java tool that can analyze your disk and generate useful reports about the types of files</p>
+                        <p>It also exposes an API that can be imported and used in any project to scan a particular location and generate reports.</p>
+                        <a href="https://github.com/manoharprabhu/DiskAnalyzer" class="btn btn-default">View Source</a>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="row mt-100">
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <!--<img src=""  alt="Comic Relief">-->
+                    <div class="caption">
+                        <h3>Comic Relief</h3>
+                        <p>Java tool and API that can be used to convert a set of movie and its subtitle into comics.</p>
+                        <p>Depends on FFMPEG for the conversions.</p>
+                        <a href="https://github.com/manoharprabhu/comic-relief" class="btn btn-default">View Source</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>The Button</h3>
+                        <p>Recreation of the timer in Swan hatch from the TV show 'Lost'</p>
+                        <a href="http://manoharprabhu.github.io/TheButton/" class="btn btn-success">Play</a>
+                        <a href="https://github.com/manoharprabhu/TheButton" class="btn btn-default">View Source</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
