@@ -1,4 +1,4 @@
-var game = new Phaser.Game(400, 600, Phaser.AUTO, 'game-container');
+var game = new Phaser.Game(400, 600, Phaser.CANVAS, 'game-container');
 var bird, cursors, pipes, isGameOver = false, floor, score, birdChangeTimer;
 var coins, finishLine,birdInterval;
 var numberOfPipes = 40;
