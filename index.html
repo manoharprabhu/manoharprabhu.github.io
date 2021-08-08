@@ -1,130 +1,33 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Portfolio</title>
-        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="js/spin.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-        <link rel="stylesheet" href="css/bootstrap.css" />
-        <link rel="stylesheet" href="css/main.css" />
-    </head>
-    <body>
-        <span id="loading-spinner"></span>
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="main-navigation-bar">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" />
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Portfolio</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </nav>
+<!DOCTYPE html>
+<html lang="en">
 
-        <div class="container mt-100">
-            <div class="invisible" id="main-jumbotron">
-                <br />
-                <br />
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-12"><img class="center-block round-image" data-toggle="tooltip" data-placement="top" title="This guy is awesome!" data-original-title="This guy is awesome!" src="images/manohar.jpg" width="221" height="255" /></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 text-align-center"><h3>Manohar Prabhu</h3></div>
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="row col-md-12"><h4> Software Engineer, with proficiency in building scalable, user-friendly applications using Java, HTML5, and Javascript </h4></div>
-                        <div class="row col-md-12"><a class="btn btn-success" href="projects.html">View my works</a></div>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-            </div>
-            <br />
+<head>
+  <meta charset="utf-8" />
+  <title>Manohar Prabhu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .dot {
+      height: 0.8em;
+      width: 0.8em;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  </style>
+</head>
 
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="panel panel-success invisible" id="current-employment-panel">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-md-9 col-sm-9 col-xs-9">
-                                    <h4 >Currently Employed By</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row"> 
-                                <div class="col-md-12"><h3><img src="images/Zynga_2012.svg" width="180" height="90" /> Zynga Games </h3></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="panel panel-success invisible" id="tools-of-trade-panel">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <h4>Tools I use to create awesome products</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-6">
-                                    <div class="row">
-                                        <div class="col-md-12"><img src="images/html5.png" alt="HTML5" class="center-block" width="64" height="64" /></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 text-align-center"><h4>HTML5</h4></div>
-                                    </div>                           
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
-                                    <div class="row">
-                                        <div class="col-md-12"><img src="images/javascript-logo.png" alt="Javascript"  class="center-block"  width="64" height="64"/></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 text-align-center"><h4>Javascript</h4></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
-                                    <div class="row">
-                                        <div class="col-md-12"><img src="images/java.png" alt="Java" class="center-block"  width="64" height="64" /></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 text-align-center"><h4>Java</h4></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
-                                    <div class="row">
-                                        <div class="col-md-12"><img src="images/nodejs-128.png" alt="NodeJS" class="center-block"  width="64" height="64" /></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 text-align-center"><h4>NodeJS</h4></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body>
+  <div class="bg-blue-50 w-screen h-screen flex flex-col items-center justify-center">
+    <div class="flex justify-end w-2/4 h-8 bg-gradient-to-r from-green-400 to-green-300 rounded-t-md items-center">
+      <div class="dot m-1 bg-red-600"></div>
+      <div class="dot m-1 bg-blue-600"></div>
+      <div class="dot m-1 bg-yellow-600"></div>
+      <div class="w-2"></div>
+    </div>
+    <div class="rounded-b-md bg-white p-20 flex w-2/4 h-64 text-gray-700 text-xl shadow-xl items-center justify-center">
+      Page under construction. Please come back later ;)
+    </div>
+  </div>
+</body>
 
-
-        </div>  
-
-    </body>
 </html>
